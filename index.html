@@ -58,16 +58,30 @@
 
   <!-- Preload Critical Above-The-Fold Hero Background -->
   <link rel="preload" as="image" href="assets/hero-bg(1).webp" type="image/webp" />
-  <link rel="stylesheet" href="style.css?v=3.26" />
+  <link rel="stylesheet" href="style.css?v=3.27" />
 </head>
 <body class="bg-ivory-100 text-charcoal font-sans antialiased overflow-x-hidden">
 
   <!-- ENVELOPE ENTRANCE OVERLAY -->
   <div id="door-overlay" class="door-overlay cursor-pointer" onclick="openRoyalDoor()">
     <!-- Background Video -->
-    <video id="envelope-video" muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover object-center z-0">
+    <video id="envelope-video" autoplay muted playsinline preload="auto" class="absolute inset-0 w-full h-full object-cover object-center z-0">
       <source src="assets/envolp-open.mp4" type="video/mp4" />
     </video>
+    <script>
+      (function() {
+        var v = document.getElementById('envelope-video');
+        if (v) {
+          var autoPause = function() {
+            v.pause();
+            v.removeEventListener('play', autoPause);
+            v.removeEventListener('playing', autoPause);
+          };
+          v.addEventListener('play', autoPause);
+          v.addEventListener('playing', autoPause);
+        }
+      })();
+    </script>
 
     <!-- Bottom Tap to Open Text (Positioned absolutely at bottom to avoid overlapping middle envelope) -->
     <div id="overlay-cta" class="absolute bottom-[16%] left-0 right-0 w-full text-center z-10 opacity-0 envelope-text-bottom">
@@ -713,6 +727,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=3.32"></script>
+  <script src="script.js?v=3.33"></script>
 </body>
 </html>
