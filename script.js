@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 2. LIVE COUNTDOWN TIMER
-  const destination = new Date('2026-11-28T16:00:00').getTime();
+  const destination = new Date('2026-11-30T19:00:00').getTime();
 
   function updateCountdown() {
     const now = new Date().getTime();
@@ -533,24 +533,24 @@ document.addEventListener('DOMContentLoaded', () => {
     eng: {
       mantra: "|| Shree Ganeshay Namah ||",
       subtitle: "The Wedding Celebration of",
-      groom: "Amardeep",
-      bride: "Srushti",
+      groom: "Gaurav",
+      bride: "Shilpi",
       weds: "weds",
-      date: "Saturday, November 28, 2026",
-      venue: "at The Oberoi Udaivilas, Udaipur",
+      date: "Monday, November 30, 2026",
+      venue: "at KD Jalsa Banquet Hall, Mandhana, Kanpur",
       countdownTitle: "SAVE THE DATE",
       days: "DAYS",
       hours: "HOURS",
       mins: "MINUTES",
       secs: "SECONDS",
-      eventsTitle: "Events Schedule",
+      eventsTitle: "Sacred Ceremonies",
       hostsTitle: "With Blessings",
       hostsSub: "WITH THE BLESSINGS OF OUR ELDERS",
-      hostsWelcomed: "Warmly Welcomed By",
+      hostsWelcomed: "CORDIALLY INVITED",
       hostsFamilies: "The Families",
       hostsGroomSide: "Groom's Family",
       hostsBrideSide: "Bride's Family",
-      hostsBottomNote: '"Kindly join us to celebrate the auspicious Anand Karaj of our children."',
+      hostsBottomNote: '"With hearts full of joy and gratitude, we warmly welcome you and your family to shower your blessings and be a cherished part of our special celebrations."',
       venueTitle: "Where We Celebrate",
       directionsBtn: "Get Directions",
       footerText: "WITH LOVE & BLESSINGS"
@@ -558,24 +558,24 @@ document.addEventListener('DOMContentLoaded', () => {
     hin: {
       mantra: "|| श्री गणेशाय नमः ||",
       subtitle: "के पावन विवाह समारोह",
-      groom: "अमरदीप",
-      bride: "सृष्टि",
+      groom: "गौरव",
+      bride: "शिल्पी",
       weds: "संग",
-      date: "शनिवार, 28 नवंबर 2026",
-      venue: "द ओबेरॉय उदयविलास, उदयपुर में",
+      date: "सोमवार, 30 नवंबर 2026",
+      venue: "केडी जलसा बैंक्वेट हॉल, मंधना, कानपुर में",
       countdownTitle: "शुभ विवाह तिथि",
       days: "दिन",
       hours: "घंटे",
       mins: "मिनट",
       secs: "सेकंड",
-      eventsTitle: "कार्यक्रम सूची",
+      eventsTitle: "शुभ विवाह कार्यक्रम",
       hostsTitle: "शुभ आशीर्वाद",
       hostsSub: "पूज्य बुजुर्गों के आशीर्वाद से",
-      hostsWelcomed: "दर्शनाभिलाषी",
+      hostsWelcomed: "सादर आमंत्रण",
       hostsFamilies: "परिवार",
       hostsGroomSide: "वर पक्ष",
       hostsBrideSide: "वधू पक्ष",
-      hostsBottomNote: '"हमारे बच्चों के आनंद कारज के शुभ अवसर पर आपका सादर निमंत्रण है।"',
+      hostsBottomNote: '"हमारे बच्चों के पावन विवाह के शुभ अवसर पर आपका सपरिवार सादर निमंत्रण है।"',
       venueTitle: "उत्सव स्थल",
       directionsBtn: "दिशा-निर्देश",
       footerText: "स्नेह एवं आदर सहित"
@@ -583,11 +583,11 @@ document.addEventListener('DOMContentLoaded', () => {
     pun: {
       mantra: "|| ੴ ਸ੍ਰੀ ਗਣੇਸ਼ਾਏ ਨਮਹ ||",
       subtitle: "ਦੇ ਪਵਿੱਤਰ ਵਿਆਹ ਸਮਾਗਮ",
-      groom: "ਅਮਰਦੀਪ",
-      bride: "ਸ੍ਰਿਸ਼ਟੀ",
+      groom: "ਗੌਰਵ",
+      bride: "ਸ਼ਿਲਪੀ",
       weds: "ਸੰਗ",
-      date: "ਸ਼ਨੀਵਾਰ, 28 ਨਵੰਬਰ 2026",
-      venue: "ਦ ਓਬਰਾਏ ਉਦੈਵਿਲਾਸ, ਉਦੈਪੁਰ ਵਿਖੇ",
+      date: "ਸੋਮਵਾਰ, 30 ਨਵੰਬਰ 2026",
+      venue: "ਕੇਡੀ ਜਲਸਾ ਬੈਂਕੁਇਟ ਹਾਲ, ਮੰਧਨਾ, ਕਾਨਪੁਰ ਵਿਖੇ",
       countdownTitle: "ਸ਼ੁਭ ਵਿਆਹ ਦੀ ਤਾਰੀਖ",
       days: "ਦਿਨ",
       hours: "ਘੰਟੇ",
@@ -600,7 +600,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hostsFamilies: "ਪਰਿਵਾਰ",
       hostsGroomSide: "ਲੜਕੇ ਵਾਲੇ",
       hostsBrideSide: "ਲੜਕੀ ਵਾਲੇ",
-      hostsBottomNote: '"ਸਾਡੇ ਬੱਚਿਆਂ ਦੇ ਅਨੰਦ ਕਾਰਜ ਦੇ ਸ਼ੁਭ ਅਵਸਰ \'ਤੇ ਤੁਹਾਡੀ ਹਾਜ਼ਰੀ ਦੀ ਮੰਗ ਕਰਦੇ ਹਾਂ।"',
+      hostsBottomNote: '"ਸਾਡੇ ਬੱਚਿਆਂ ਦੇ ਸ਼ੁਭ ਵਿਆਹ ਦੇ ਅਵਸਰ \'ਤੇ ਤੁਹਾਡੀ ਹਾਜ਼ਰੀ ਦੀ ਮੰਗ ਕਰਦੇ ਹਾਂ।"',
       venueTitle: "ਵਿਆਹ ਦਾ ਸਥਾਨ",
       directionsBtn: "ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼",
       footerText: "ਪਿਆਰ ਅਤੇ ਸਤਿਕਾਰ ਸਹਿਤ"
@@ -608,11 +608,11 @@ document.addEventListener('DOMContentLoaded', () => {
     mar: {
       mantra: "|| श्री गणेशाय नमः ||",
       subtitle: "यांच्या शुभ विवाह सोहळ्यात",
-      groom: "अमरदीप",
-      bride: "सृष्टी",
+      groom: "गौरव",
+      bride: "शिल्पी",
       weds: "विवाह करतात",
-      date: "शनिवार, २८ नोव्हेंबर २०२६",
-      venue: "द ओबेरॉय उदयविलास, उदयपूर येथे",
+      date: "सोमवार, ३० नोव्हेंबर २०२६",
+      venue: "केडी जलसा बँक्वेट हॉल, मंधना, कानपूर येथे",
       countdownTitle: "शुभ विवाह तिथी",
       days: "दिवस",
       hours: "तास",
@@ -633,11 +633,11 @@ document.addEventListener('DOMContentLoaded', () => {
     guj: {
       mantra: "|| શ્રી ગણેશાય નમઃ ||",
       subtitle: "ના પવિત્ર વિવાહ સમારોહ",
-      groom: "અમરદીપ",
-      bride: "સૃષ્ટિ",
+      groom: "ગૌરવ",
+      bride: "શિલ્પી",
       weds: "સાથે",
-      date: "શનિવાર, ૨૮ નવેમ્બર ૨૦૨૬",
-      venue: "ધ ઓબેરોઈ ઉદય વિલાસ, ઉદયપુર ખાતે",
+      date: "સોમવાર, ૩૦ નવેમ્બર ૨૦૨૬",
+      venue: "કેડી જલસા બેન્ક્વેટ હોલ, મંધના, કાનપુર ખાતે",
       countdownTitle: "શુભ વિવાહ તિથિ",
       days: "દિવસ",
       hours: "કલાક",
@@ -650,7 +650,7 @@ document.addEventListener('DOMContentLoaded', () => {
       hostsFamilies: "પરિવાર",
       hostsGroomSide: "વર પક્ષ",
       hostsBrideSide: "વધૂ પક્ષ",
-      hostsBottomNote: '"અમારા સંતાનના આનંદ કારજ પ્રસંગે આપની ઉપસ્થિતિ ઈચ્છીએ છીએ."',
+      hostsBottomNote: '"અમારા સંતાનના શુભ વિવાહ પ્રસંગે આપની ઉપસ્થિતિ ઈચ્છીએ છીએ."',
       venueTitle: "ઉત્સવ સ્થળ",
       directionsBtn: "દિશા-નિર્દેશ",
       footerText: "પ્રેમ અને શ્રદ્ધા સહ"
@@ -658,11 +658,11 @@ document.addEventListener('DOMContentLoaded', () => {
     tam: {
       mantra: "|| ஸ்ரீ கணேசாய நமஹ ||",
       subtitle: "திருமண விழாவில்",
-      groom: "அமர்தீப்",
-      bride: "சிருஷ்டி",
+      groom: "கௌரவ்",
+      bride: "ஷில்பி",
       weds: "மணக்கிறார்",
-      date: "சனிக்கிழமை, நவம்பர் 28, 2026",
-      venue: "த ஓபரா உதய்விலாஸ், உதய்பூர்",
+      date: "திங்கட்கிழமை, நவம்பர் 30, 2026",
+      venue: "கேடி ஜல்சா பேங்க்வெட் ஹால், மந்தனா, கான்பூர்",
       countdownTitle: "திருமண நாள்",
       days: "நாட்கள்",
       hours: "மணி",
@@ -683,11 +683,11 @@ document.addEventListener('DOMContentLoaded', () => {
     tel: {
       mantra: "|| శ్రీ గణేశాయ నమః ||",
       subtitle: "వివాహ వేడుకకు",
-      groom: "అమరదీప్",
-      bride: "సృష్టి",
+      groom: "గౌరవ్",
+      bride: "శిల్పి",
       weds: "వివాహమాడుతున్నారు",
-      date: "శనివారం, నవంబర్ 28, 2026",
-      venue: "ది ఒబెరాయ్ ఉదయ్‌విలాస్, ఉదయపూర్",
+      date: "సోమవారం, నవంబర్ 30, 2026",
+      venue: "కేడీ జల్సా బాంక్వెట్ హాల్, మంధన, కాన్పూర్",
       countdownTitle: "శుభ వివాహ తేదీ",
       days: "రోజులు",
       hours: "గంటలు",
@@ -851,32 +851,53 @@ window.closeLightbox = closeLightbox;
 // ----------------------------------------------------
 const gallerySlides = [
   { 
-    img: 'assets/gallery1.webp', 
-    thumb: 'assets/gallery1.webp',
+    img: 'assets/gallery-1.webp', 
+    thumb: 'assets/gallery-1.webp',
     tag: 'Pre-Wedding', 
     title: 'Cherished Moments', 
-    desc: 'Capturing our beautiful memories together' 
+    desc: 'Capturing the beautiful beginning of our forever' 
   },
   { 
-    img: 'assets/gallery2.webp', 
-    thumb: 'assets/gallery2.webp',
-    tag: 'Ceremony', 
-    title: 'Traditional Blessings', 
-    desc: 'Sacred rituals of love and union' 
+    img: 'assets/gallery-2.webp', 
+    thumb: 'assets/gallery-2.webp',
+    tag: 'Together Forever', 
+    title: 'Soulful Bond', 
+    desc: 'Two hearts beating in eternal harmony' 
   },
   { 
-    img: 'assets/gallery3.webp', 
-    thumb: 'assets/gallery3.webp',
-    tag: 'Celebration', 
-    title: 'Joyous Festivities', 
-    desc: 'Celebrating love with family and friends' 
+    img: 'assets/gallery-3.webp', 
+    thumb: 'assets/gallery-3.webp',
+    tag: 'Sweet Memories', 
+    title: 'Pure Happiness', 
+    desc: 'Treasured laughter and timeless promises' 
   },
   { 
-    img: 'assets/gallery4.webp', 
-    thumb: 'assets/gallery4.webp',
-    tag: 'Holy Matrimony', 
-    title: 'Eternal Promises', 
-    desc: 'Two souls united together forever' 
+    img: 'assets/gallery-4.webp', 
+    thumb: 'assets/gallery-4.webp',
+    tag: 'Celebration of Love', 
+    title: 'Grace & Elegance', 
+    desc: 'Walking hand in hand toward our golden future' 
+  },
+  { 
+    img: 'assets/gallery-5.webp', 
+    thumb: 'assets/gallery-5.webp',
+    tag: 'Royal Matrimony', 
+    title: 'Sacred Union', 
+    desc: 'Every moment spent together is a blessing' 
+  },
+  { 
+    img: 'assets/gallery-6.webp', 
+    thumb: 'assets/gallery-6.webp',
+    tag: 'Eternal Love', 
+    title: 'Hearts Entwined', 
+    desc: 'United in faith, love, and companionship' 
+  },
+  { 
+    img: 'assets/gallery-7.webp', 
+    thumb: 'assets/gallery-7.webp',
+    tag: 'Infinite Bliss', 
+    title: 'A Lifetime Together', 
+    desc: 'Beginning an exquisite adventure of togetherness' 
   }
 ];
 
